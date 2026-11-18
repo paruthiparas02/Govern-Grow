@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 56" role="img" aria-label="Govern &amp; Grow">
+  <defs>
+    <linearGradient id="gg2" x1="8" y1="4" x2="40" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0AB3C4"/>
+      <stop offset="1" stop-color="#14A44D"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(0 4)">
+    <path d="M24 3 41 9.5V22c0 11-7.5 19-17 23C14.5 41 7 33 7 22V9.5Z" fill="url(#gg2)"/>
+    <path d="M24 37V21" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M24 25.5c0-7 4.6-11.5 11-11.5 0 7-4.6 11.5-11 11.5Z" fill="#fff"/>
+    <path d="M24 30c0-5.4-3.6-9-8.6-9 0 5.4 3.6 9 8.6 9Z" fill="#fff" fill-opacity=".82"/>
+    <circle cx="24" cy="38.2" r="1.6" fill="#FFB020"/>
+  </g>
+  <text x="56" y="30" font-family="Spectral, Georgia, serif" font-weight="600" font-size="24" fill="#0D2B45">Govern &amp; Grow</text>
+  <text x="57" y="47" font-family="'Public Sans', Arial, sans-serif" font-size="10" letter-spacing="1" fill="#14A44D">GRC · CERTIFICATION · CONSULTING</text>
+</svg>
