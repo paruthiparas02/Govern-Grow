@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ISO 27001, ISO 42001 &amp; DPDPA Compliance Consulting | Govern &amp; Grow</title>
-<meta name="description" content="Govern &amp; Grow helps organisations get ISO 27001 and ISO 42001 certified and comply with India’s DPDP Act, then streamline operations with ERP and digital transformation.">
+<title>GRC, Digital Transformation &amp; Operational Efficiency Consulting | Govern &amp; Grow</title>
+<meta name="description" content="Govern &amp; Grow helps businesses stay compliant, modernise systems and run leaner operations. ISO 27001 and DPDPA compliance, ERP and digital transformation, and process improvement.">
 <link rel="canonical" href="https://governgrow.com/">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Govern &amp; Grow">
-<meta property="og:title" content="ISO 27001, ISO 42001 &amp; DPDPA Compliance Consulting | Govern &amp; Grow">
-<meta property="og:description" content="Get certified, get compliant and build operations that scale. GRC and consulting from Govern &amp; Grow.">
+<meta property="og:title" content="Govern &amp; Grow | Compliance, Transformation and Operations Consulting">
+<meta property="og:description" content="Stay compliant, modernise your systems and run leaner operations with one consulting partner.">
 <meta property="og:url" content="https://governgrow.com/">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary">
@@ -215,11 +215,53 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
 .menu a{display:block;padding:.8rem 0;font-size:1.05rem}
 .menu .btn{margin-top:.5rem;padding:.85rem}
 }
-@media (max-width:640px){
+@media (max-width:640px){.foot{grid-template-columns:1fr!important}
 .grid,.models,.oblig,.triggers,.support,.std,.row,.foot{grid-template-columns:1fr}
 .brand small{display:none}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.bar i{animation:none}.btn{transition:none}}
+
+/* v4 balanced layout */
+.pillars{background:var(--navy);color:#F4FAF7;padding-block:1.6rem}
+@media (prefers-color-scheme:dark){.pillars{background:#061420}}
+.pillars ul{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;list-style:none}
+.pillars a{display:flex;gap:.9rem;align-items:flex-start;text-decoration:none;padding:.9rem 1rem;border-radius:var(--r);background:rgba(255,255,255,.07);border-left:4px solid var(--teal)}
+.pillars li:nth-child(2) a{border-color:#3DD27A}.pillars li:nth-child(3) a{border-color:var(--amber)}
+.pillars a:hover{background:rgba(255,255,255,.13)}
+.pillars b{display:block;font-size:1.02rem}
+.pillars span{display:block;font-size:.86rem;opacity:.75}
+.triggers.six{grid-template-columns:repeat(3,1fr)}
+.triggers .pill{display:inline-block;font-size:.76rem;font-weight:700;margin-bottom:.6rem;color:var(--teal-d)}
+.triggers li.g .pill{color:var(--teal-d)}.triggers li.d .pill{color:var(--emerald-d)}.triggers li.o .pill{color:var(--amber-d)}
+.triggers li.g{background:var(--sky)}.triggers li.d{background:var(--mint)}.triggers li.o{background:var(--sun)}
+.practice-head .also{margin-top:.5rem;font-size:.92rem}
+.how{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+.how-row{display:grid;grid-template-columns:1.1fr 1fr 1fr 1fr;border-top:1px solid var(--line)}
+.how-row:first-child{border-top:none;background:var(--paper)}
+.how-row>*{padding:1.1rem 1.25rem}
+.how-row>*+*{border-left:1px solid var(--line)}
+.how-row:first-child span{font-weight:600;font-size:.92rem}
+.how-row:first-child span:nth-child(2){color:var(--teal-d)}.how-row:first-child span:nth-child(3){color:var(--emerald-d)}.how-row:first-child span:nth-child(4){color:var(--amber-d)}
+.how-row h3{font-size:1.2rem;display:flex;gap:.6rem;align-items:baseline}
+.how-row h3 i{font-style:normal;font-family:var(--sans);font-size:.85rem;font-weight:700;color:#fff;background:var(--grad);border-radius:50%;width:1.6rem;height:1.6rem;display:inline-grid;place-items:center;flex:none}
+.how-row p{font-size:.94rem;color:var(--slate)}
+.how-row .lbl{display:none;font-size:.78rem;font-weight:700;margin-bottom:.15rem}
+.together{display:grid;grid-template-columns:1fr 1.3fr;gap:3rem;align-items:center}
+.together ul{list-style:none;display:grid;gap:1.1rem}
+.together li{padding:1.1rem 1.3rem;border-radius:var(--r);background:var(--surface);border:1px solid var(--line)}
+.together b{display:block;font-family:var(--serif);font-size:1.12rem}
+.together span{color:var(--slate);font-size:.95rem}
+@media (max-width:1000px){.pillars ul,.triggers.six{grid-template-columns:1fr 1fr}.together{grid-template-columns:1fr}}
+@media (max-width:760px){
+.how-row{grid-template-columns:1fr}.how-row:first-child{display:none}
+.how-row>*+*{border-left:none;padding-top:0}
+.how-row .lbl{display:block}
+.how-row .lbl.g{color:var(--teal-d)}.how-row .lbl.d{color:var(--emerald-d)}.how-row .lbl.o{color:var(--amber-d)}
+}
+@media (max-width:640px){.foot{grid-template-columns:1fr!important}.pillars ul,.triggers.six{grid-template-columns:1fr}}
+@media (max-width:1000px){.foot{grid-template-columns:1fr 1fr!important}}
+@media (max-width:640px){.foot{grid-template-columns:1fr!important}}
+.wrap.faq{max-width:none}.faq details{max-width:840px}
 
 </style>
 <script type="application/ld+json">
@@ -230,19 +272,23 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
   "url": "https://governgrow.com/",
   "logo": "https://governgrow.com/logo-mark.svg",
   "email": "paruthiparas02@gmail.com",
-  "description": "GRC and consulting firm offering ISO/IEC 27001 and ISO/IEC 42001 certification support, DPDP Act compliance, digital transformation, ERP advisory and operational efficiency consulting.",
+  "slogan": "We help you govern and grow.",
+  "description": "Consulting firm for governance, risk and compliance, digital transformation and operational efficiency: ISO 27001, ISO 42001 and DPDPA compliance, ERP advisory and implementation, process automation and process improvement.",
   "areaServed": { "@type": "Country", "name": "India" },
-  "knowsAbout": ["ISO/IEC 27001", "ISO/IEC 42001", "Digital Personal Data Protection Act 2023", "Governance, risk and compliance", "ERP implementation", "Digital transformation"],
+  "knowsAbout": ["Governance, risk and compliance", "ISO/IEC 27001", "ISO/IEC 42001", "Digital Personal Data Protection Act 2023", "Digital transformation", "ERP implementation", "Process automation", "Operational efficiency", "Lean process improvement"],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Consulting services",
     "itemListElement": [
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ISO 27001 certification consulting" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ISO 42001 AI management system consulting" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "DPDPA compliance consulting" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Digital transformation consulting" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ERP advisory and implementation" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Operational efficiency consulting" } }
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ISO 42001 AI management system consulting" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Digital transformation strategy" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ERP selection and implementation" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Process automation and integration" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Process improvement consulting" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SOPs and operating model design" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "KPI and performance management" } }
     ]
   }
 }
@@ -252,12 +298,12 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    { "@type": "Question", "name": "How long does ISO 27001 certification take?", "acceptedAnswer": { "@type": "Answer", "text": "For most small and mid-sized organisations, it takes several months to a year from gap assessment to certificate. It depends on your scope, how mature your current controls are, and how much time your team can give the project. After a gap assessment we give you a realistic timeline." } },
-    { "@type": "Question", "name": "What is the difference between ISO 27001 and ISO 27002?", "acceptedAnswer": { "@type": "Answer", "text": "ISO/IEC 27001 sets out the requirements for an information security management system and is the standard you are certified against. ISO/IEC 27002 is guidance on how to implement the security controls listed in ISO 27001 Annex A. You cannot be certified to ISO 27002." } },
-    { "@type": "Question", "name": "Does the DPDP Act apply to my business?", "acceptedAnswer": { "@type": "Answer", "text": "If you process digital personal data in India, or process it outside India in connection with offering goods or services to people in India, the Act very likely applies to you, whatever your size. A short assessment confirms your role and obligations." } },
-    { "@type": "Question", "name": "Do you issue the ISO certificate?", "acceptedAnswer": { "@type": "Answer", "text": "No. Certificates are issued by independent, accredited certification bodies. Consultants should never certify the systems they helped build. We prepare you for the audit, help you choose a certification body and support you through the Stage 1 and Stage 2 audits." } },
-    { "@type": "Question", "name": "Can ISO 27001 and ISO 42001 be implemented together?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Both follow the same harmonised management system structure, so policies, risk management, internal audit and management review can be shared. Doing them together saves time and avoids duplicate documentation." } },
-    { "@type": "Question", "name": "What does the free gap assessment include?", "acceptedAnswer": { "@type": "Answer", "text": "A 30-minute call to understand your goals and deadlines, followed by a short written summary of where you stand and the steps we recommend. There is no obligation to continue." } }
+    { "@type": "Question", "name": "How long does ISO 27001 certification take?", "acceptedAnswer": { "@type": "Answer", "text": "For most small and mid-sized organisations, several months to a year from gap assessment to certificate, depending on scope, how mature your current controls are and how much time your team can give the project." } },
+    { "@type": "Question", "name": "Does the DPDP Act apply to my business?", "acceptedAnswer": { "@type": "Answer", "text": "If you process digital personal data of customers, employees or users in India, it very likely does, whatever your size. A short assessment confirms your obligations and what to prioritise." } },
+    { "@type": "Question", "name": "How do I know if my business needs an ERP?", "acceptedAnswer": { "@type": "Answer", "text": "Common signs are running finance, inventory or sales across disconnected spreadsheets and tools, re-entering the same data in several places, slow month-end closing, and leaders waiting days for reliable reports." } },
+    { "@type": "Question", "name": "How long does an ERP implementation take?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the system, the number of modules and how much data needs to move. Smaller rollouts can take a few months; larger ones longer. Good requirements and process mapping up front is what keeps projects on schedule." } },
+    { "@type": "Question", "name": "What does an operational efficiency review involve?", "acceptedAnswer": { "@type": "Answer", "text": "We map how work actually flows through your teams, measure where time and cost are lost, and give you a prioritised list of improvements, from quick wins to larger process or system changes." } },
+    { "@type": "Question", "name": "Can you help with compliance and transformation at the same time?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and it is usually cheaper that way. Building controls into new systems and processes from the start avoids reworking them later for an audit." } }
   ]
 }
 </script>
@@ -269,16 +315,16 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
   <nav class="wrap nav" aria-label="Main">
     <a href="#" class="brand" aria-label="Govern &amp; Grow, home">
       <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iOCIgeTE9IjQiIHgyPSI0MCIgeTI9IjQ2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMEFCM0M0Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTRBNDREIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZD0iTTI0IDMgNDEgOS41VjIyYzAgMTEtNy41IDE5LTE3IDIzQzE0LjUgNDEgNyAzMyA3IDIyVjkuNVoiIGZpbGw9InVybCgjZykiLz48cGF0aCBkPSJNMjQgMzdWMjEiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yNCAyNS41YzAtNyA0LjYtMTEuNSAxMS0xMS41IDAgNy00LjYgMTEuNS0xMSAxMS41WiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0yNCAzMGMwLTUuNC0zLjYtOS04LjYtOSAwIDUuNCAzLjYgOSA4LjYgOVoiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjgyIi8+PGNpcmNsZSBjeD0iMjQiIGN5PSIzOC4yIiByPSIxLjYiIGZpbGw9IiNGRkIwMjAiLz48L3N2Zz4K" alt="" width="40" height="40">
-      <span><b>Govern &amp; Grow</b><small>GRC &amp; consulting</small></span>
+      <span><b>Govern &amp; Grow</b><small>Consulting</small></span>
     </a>
     <button class="toggle" aria-expanded="false" aria-controls="menu">Menu</button>
     <ul class="menu" id="menu">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#iso-27001-certification">Certification process</a></li>
-      <li><a href="#dpdpa">DPDPA</a></li>
-      <li><a href="#engagement">How to work with us</a></li>
+      <li><a href="#grc">Compliance</a></li>
+      <li><a href="#digital">Digital transformation</a></li>
+      <li><a href="#operations">Operations</a></li>
+      <li><a href="#approach">Approach</a></li>
       <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contact" class="btn btn-primary">Book a free gap assessment</a></li>
+      <li><a href="#contact" class="btn btn-primary">Book a free consultation</a></li>
     </ul>
   </nav>
 </header>
@@ -287,52 +333,51 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
   <div class="hero-band">
     <div class="wrap hero">
       <div>
-        <p class="kicker">Govern &amp; Grow, GRC and compliance consulting</p>
-        <h1>ISO 27001, ISO 42001 and DPDPA compliance, done properly.</h1>
-        <p class="lede">We help you pass your certification audit, meet India’s data protection law and build operations that scale. Practical controls your team can run, not a pile of templates.</p>
+        <p class="kicker">Compliance, technology and operations consulting</p>
+        <h1>Stay compliant, modernise your systems and run leaner operations.</h1>
+        <p class="lede">Govern &amp; Grow is one consulting partner for governance, risk and compliance, digital transformation and operational efficiency, so the controls, systems and processes you build actually work together.</p>
         <div class="actions">
-          <a href="#contact" class="btn btn-primary">Book a free gap assessment</a>
+          <a href="#contact" class="btn btn-primary">Book a free consultation</a>
           <a href="#services" class="btn btn-ghost">See our services</a>
         </div>
         <ul class="assure">
           <li>Fixed scope and fee before we start</li>
-          <li>Support through to your certification audit</li>
+          <li>We stay until it works in practice</li>
         </ul>
       </div>
 
       <aside class="panel" aria-labelledby="snap-title">
-        <h2 id="snap-title">What your gap assessment shows</h2>
-        <p>A clear view of where you stand against each requirement.</p>
-        <div class="meter"><span>ISO/IEC 27001 Annex A controls</span><span>Example: 61 of 93</span><div class="bar"><i class="c1" style="width:66%"></i></div></div>
-        <div class="meter"><span>DPDPA Data Fiduciary obligations</span><span>Example: 48%</span><div class="bar"><i class="c2" style="width:48%"></i></div></div>
-        <div class="meter"><span>ISO/IEC 42001 AI management system</span><span>Example: 30%</span><div class="bar"><i class="c3" style="width:30%"></i></div></div>
-        <small>Illustrative figures. Your report comes with a prioritised plan to close each gap.</small>
+        <h2 id="snap-title">Your business health check</h2>
+        <p>Our first review scores you across all three areas.</p>
+        <div class="meter"><span>Governance and compliance</span><span>Example: 58%</span><div class="bar"><i class="c1" style="width:58%"></i></div></div>
+        <div class="meter"><span>Digital maturity</span><span>Example: 42%</span><div class="bar"><i class="c2" style="width:42%"></i></div></div>
+        <div class="meter"><span>Operational efficiency</span><span>Example: 65%</span><div class="bar"><i class="c3" style="width:65%"></i></div></div>
+        <small>Illustrative figures. Your review comes with a prioritised plan for each area.</small>
       </aside>
     </div>
   </div>
 
-  <div class="standards">
-    <div class="wrap">
-      <h2>Standards and regulations we implement</h2>
-      <ul class="std">
-        <li><a href="#iso-27001"><b>ISO/IEC 27001:2022</b><span>Information security management</span></a></li>
-        <li><a href="#iso-42001"><b>ISO/IEC 42001:2023</b><span>Artificial intelligence management</span></a></li>
-        <li><a href="#dpdpa"><b>DPDP Act, 2023</b><span>India’s personal data protection law</span></a></li>
-      </ul>
-    </div>
-  </div>
+  <nav class="pillars" aria-label="Our practices">
+    <ul class="wrap">
+      <li><a href="#grc"><span><b>Governance, risk and compliance</b><span>ISO 27001, DPDPA, ISO 42001, risk and audit</span></span></a></li>
+      <li><a href="#digital"><span><b>Digital transformation</b><span>Strategy, ERP, automation and integration</span></span></a></li>
+      <li><a href="#operations"><span><b>Operational efficiency</b><span>Process improvement, SOPs and KPIs</span></span></a></li>
+    </ul>
+  </nav>
 
   <section aria-labelledby="when-title">
     <div class="wrap">
       <div class="head">
-        <h2 id="when-title">When companies call us</h2>
+        <h2 id="when-title">When businesses call us</h2>
         <p>Most of our work starts with one of these moments.</p>
       </div>
-      <ul class="triggers">
-        <li><h3>A client wants ISO 27001</h3><p>An enterprise deal, RFP or vendor security questionnaire asks for certification you don’t have yet.</p><a href="#iso-27001">ISO 27001 support</a></li>
-        <li><h3>You handle personal data</h3><p>Customer, employee or user data means DPDPA obligations, with penalties of up to ₹250 crore.</p><a href="#dpdpa">DPDPA compliance</a></li>
-        <li><h3>You build or use AI</h3><p>Customers and regulators want proof that your AI is governed, tested and accountable.</p><a href="#iso-42001">ISO 42001 support</a></li>
-        <li><h3>Growth is outpacing your systems</h3><p>Spreadsheets, manual handoffs and disconnected tools are slowing your teams down.</p><a href="#transformation">Transformation services</a></li>
+      <ul class="triggers six">
+        <li class="g"><span class="pill">Compliance</span><h3>A client asks for ISO 27001</h3><p>An enterprise deal or vendor security questionnaire needs certification you don’t have yet.</p><a href="#grc">Compliance services</a></li>
+        <li class="d"><span class="pill">Digital</span><h3>You’ve outgrown spreadsheets</h3><p>Finance, inventory and sales live in separate tools, and reports take days to pull together.</p><a href="#digital">Digital services</a></li>
+        <li class="o"><span class="pill">Operations</span><h3>Costs are rising faster than revenue</h3><p>Work is getting done, but slowly, with rework, delays and too many handoffs.</p><a href="#operations">Operations services</a></li>
+        <li class="g"><span class="pill">Compliance</span><h3>You handle personal data</h3><p>Customer and employee data brings obligations under India’s DPDP Act.</p><a href="#grc">Compliance services</a></li>
+        <li class="d"><span class="pill">Digital</span><h3>Your team re-keys the same data</h3><p>Manual entry between systems wastes hours and creates errors.</p><a href="#digital">Digital services</a></li>
+        <li class="o"><span class="pill">Operations</span><h3>Growth depends on a few people</h3><p>Know-how isn’t written down, so scaling or onboarding new staff is hard.</p><a href="#operations">Operations services</a></li>
       </ul>
     </div>
   </section>
@@ -341,155 +386,202 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
     <div class="wrap">
       <div class="head">
         <h2 id="services-title">Services</h2>
-        <p>Two practices that work together: get certified and compliant, then build the systems and operations that keep you that way as you grow.</p>
+        <p>Three practices. Use one on its own, or combine them so compliance, technology and operations are designed together.</p>
       </div>
 
-      <div class="practice">
+      <div class="practice" id="grc">
         <div class="practice-head">
-          <h3>Compliance and certification</h3>
-          <p>Management systems and privacy programmes that pass audit and hold up in day-to-day operations.</p>
-        </div>
-        <div class="grid">
-          <article class="card teal" id="iso-27001">
-            <span class="tag">ISO/IEC 27001:2022</span>
-            <h4>ISO 27001 certification consulting</h4>
-            <p>We design and implement your information security management system (ISMS) and prepare you for certification.</p>
-            <ul>
-              <li>Gap assessment and ISMS scope</li>
-              <li>Risk assessment and treatment plan</li>
-              <li>Statement of Applicability</li>
-              <li>Policies and Annex A controls</li>
-              <li>Internal audit and management review</li>
-              <li>Stage 1 and Stage 2 audit support</li>
-            </ul>
-            <a class="more" href="#contact" data-service="ISO 27001">Discuss ISO 27001</a>
-          </article>
-          <article class="card" id="iso-42001">
-            <span class="tag">ISO/IEC 42001:2023</span>
-            <h4>ISO 42001 AI management system</h4>
-            <p>Set up an AI management system (AIMS) that shows customers and regulators your AI is used responsibly.</p>
-            <ul>
-              <li>AI inventory and use-case register</li>
-              <li>AI risk and impact assessments</li>
-              <li>AI policy, roles and accountability</li>
-              <li>Controls across the AI lifecycle</li>
-              <li>Integration with an existing ISO 27001 ISMS</li>
-              <li>Certification audit support</li>
-            </ul>
-            <a class="more" href="#contact" data-service="ISO 42001">Discuss ISO 42001</a>
-          </article>
-          <article class="card amber" id="dpdpa-service">
-            <span class="tag">DPDP Act, 2023</span>
-            <h4>DPDPA compliance consulting</h4>
-            <p>Build a privacy programme that meets your obligations as a Data Fiduciary under India’s data protection law.</p>
-            <ul>
-              <li>Personal data inventory and data flow mapping</li>
-              <li>Privacy notices and consent journeys</li>
-              <li>Data Principal rights and grievance process</li>
-              <li>Breach response and notification plan</li>
-              <li>Retention and erasure rules</li>
-              <li>Data processor contracts</li>
-            </ul>
-            <a class="more" href="#contact" data-service="DPDPA">Discuss DPDPA</a>
-          </article>
-        </div>
-        <ul class="support" aria-label="Supporting GRC services">
-          <li><b>Risk management</b><span>Risk registers, methods and reporting for leadership.</span></li>
-          <li><b>Internal audit</b><span>Independent audits against ISO and internal controls.</span></li>
-          <li><b>Third-party risk</b><span>Vendor due diligence and security questionnaires.</span></li>
-          <li><b>Policies and training</b><span>Clear policies and awareness training for staff.</span></li>
-        </ul>
-      </div>
-
-      <div class="practice" id="transformation">
-        <div class="practice-head">
-          <h3>Business transformation</h3>
-          <p>Modern systems and leaner processes that cut manual work, improve data quality and keep controls built in from the start.</p>
+          <h3>Governance, risk and compliance</h3>
+          <div>
+            <p>Meet the standards and laws your clients, regulators and investors expect, with controls your team can actually run.</p>
+            <p class="also">Also: risk registers, internal audit, vendor risk and policy frameworks.</p>
+          </div>
         </div>
         <div class="grid">
           <article class="card teal">
+            <span class="tag">ISO/IEC 27001:2022</span>
+            <h4>ISO 27001 certification</h4>
+            <p>Build your information security management system and get certified.</p>
+            <ul>
+              <li>Gap assessment and scoping</li>
+              <li>Risk assessment and Statement of Applicability</li>
+              <li>Policies and Annex A controls</li>
+              <li>Internal audit and certification audit support</li>
+            </ul>
+            <a class="more" href="#contact" data-service="ISO 27001">Discuss ISO 27001</a>
+          </article>
+          <article class="card teal">
+            <span class="tag">DPDP Act, 2023</span>
+            <h4>DPDPA compliance</h4>
+            <p>Meet your obligations under India’s Digital Personal Data Protection Act.</p>
+            <ul>
+              <li>Personal data mapping</li>
+              <li>Notices and consent journeys</li>
+              <li>Data rights and grievance process</li>
+              <li>Breach response plan</li>
+            </ul>
+            <a class="more" href="#contact" data-service="DPDPA">Discuss DPDPA</a>
+          </article>
+          <article class="card teal">
+            <span class="tag">ISO/IEC 42001:2023</span>
+            <h4>AI governance</h4>
+            <p>Show customers and regulators that your use of AI is responsible and controlled.</p>
+            <ul>
+              <li>AI inventory and use-case register</li>
+              <li>AI risk and impact assessments</li>
+              <li>AI policy and accountability</li>
+              <li>ISO 42001 certification support</li>
+            </ul>
+            <a class="more" href="#contact" data-service="ISO 42001">Discuss AI governance</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="practice" id="digital">
+        <div class="practice-head">
+          <h3>Digital transformation</h3>
+          <div>
+            <p>Replace manual work and disconnected tools with systems that give you reliable data and room to scale.</p>
+            <p class="also">We recommend tools that fit your size, sector and budget.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card">
             <span class="tag">Strategy</span>
-            <h4>Digital transformation</h4>
-            <p>A clear roadmap from the systems you have today to the ones your business needs next.</p>
+            <h4>Digital strategy and roadmap</h4>
+            <p>A clear plan from the systems you have today to the ones your business needs next.</p>
             <ul>
               <li>Digital maturity assessment</li>
-              <li>Roadmap and business case</li>
-              <li>Workflow automation</li>
+              <li>Prioritised roadmap and business case</li>
+              <li>Budget and resourcing plan</li>
               <li>Change management and training</li>
             </ul>
-            <a class="more" href="#contact" data-service="Digital transformation">Discuss transformation</a>
+            <a class="more" href="#contact" data-service="Digital strategy">Discuss your roadmap</a>
           </article>
           <article class="card">
             <span class="tag">Systems</span>
-            <h4>ERP advisory and implementation</h4>
+            <h4>ERP selection and implementation</h4>
             <p>Choose and roll out the right ERP for your size and sector, with less risk and disruption.</p>
             <ul>
               <li>Requirements and process mapping</li>
-              <li>ERP selection and vendor evaluation</li>
+              <li>Vendor shortlisting and demos</li>
               <li>Implementation oversight</li>
               <li>Data migration and go-live support</li>
             </ul>
             <a class="more" href="#contact" data-service="ERP">Discuss ERP</a>
           </article>
-          <article class="card amber">
-            <span class="tag">Operations</span>
-            <h4>Operational efficiency</h4>
-            <p>Find and remove the bottlenecks that slow your teams and raise your costs.</p>
+          <article class="card">
+            <span class="tag">Automation</span>
+            <h4>Automation and integration</h4>
+            <p>Connect your tools and automate repetitive work so your team can focus on higher-value tasks.</p>
             <ul>
-              <li>Process mapping and redesign</li>
-              <li>Standard operating procedures</li>
-              <li>KPIs and performance dashboards</li>
-              <li>Cost and productivity reviews</li>
+              <li>Workflow automation</li>
+              <li>System integration</li>
+              <li>Reporting and dashboards</li>
+              <li>Data quality clean-up</li>
             </ul>
-            <a class="more" href="#contact" data-service="Operational efficiency">Discuss operations</a>
+            <a class="more" href="#contact" data-service="Automation">Discuss automation</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="practice" id="operations">
+        <div class="practice-head">
+          <h3>Operational efficiency</h3>
+          <div>
+            <p>Find and remove the bottlenecks that slow your teams down, raise costs and make growth harder.</p>
+            <p class="also">Practical lean methods, measured against numbers you already track.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card amber">
+            <span class="tag">Process</span>
+            <h4>Process improvement</h4>
+            <p>See how work really flows, then cut the delays, rework and handoffs that cost you time.</p>
+            <ul>
+              <li>Current-state process mapping</li>
+              <li>Bottleneck and waste analysis</li>
+              <li>Future-state process design</li>
+              <li>Quick wins and implementation plan</li>
+            </ul>
+            <a class="more" href="#contact" data-service="Process improvement">Discuss processes</a>
+          </article>
+          <article class="card amber">
+            <span class="tag">Structure</span>
+            <h4>SOPs and operating model</h4>
+            <p>Write down how work gets done so quality is consistent and new people get up to speed fast.</p>
+            <ul>
+              <li>Standard operating procedures</li>
+              <li>Roles and responsibilities (RACI)</li>
+              <li>Team structure and handoffs</li>
+              <li>Onboarding playbooks</li>
+            </ul>
+            <a class="more" href="#contact" data-service="SOPs">Discuss SOPs</a>
+          </article>
+          <article class="card amber">
+            <span class="tag">Performance</span>
+            <h4>KPIs and cost reduction</h4>
+            <p>Measure what matters and find savings without hurting service or quality.</p>
+            <ul>
+              <li>KPI framework and targets</li>
+              <li>Performance review rhythm</li>
+              <li>Cost and productivity analysis</li>
+              <li>Continuous improvement routines</li>
+            </ul>
+            <a class="more" href="#contact" data-service="KPIs and cost">Discuss performance</a>
           </article>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="iso-27001-certification" aria-labelledby="journey-title">
-    <div class="wrap split">
+  <section id="approach" aria-labelledby="approach-title">
+    <div class="wrap">
       <div class="head">
-        <h2 id="journey-title">The ISO 27001 certification process, step by step</h2>
-        <p>Every certification follows the same path. We lead the work up to the audit, then stand with you while the certification body assesses you.</p>
-        <p>The same approach applies to ISO 42001, and the two can be run together.</p>
-        <p style="margin-top:1.5rem"><a href="#contact" class="btn btn-primary">Start with a gap assessment</a></p>
+        <h2 id="approach-title">How we work</h2>
+        <p>The same four stages for every engagement. Here’s what each one looks like in practice.</p>
       </div>
-      <ol class="journey">
-        <li><h3>Gap assessment</h3><p>We compare your current practices with the standard and estimate effort and timeline.</p><span class="who">With Govern &amp; Grow</span></li>
-        <li><h3>Scope and risk assessment</h3><p>Define what the ISMS covers, then identify and rate information security risks.</p><span class="who">With Govern &amp; Grow</span></li>
-        <li><h3>Policies and controls</h3><p>Write the required documents, including the Statement of Applicability, and put Annex A controls in place.</p><span class="who">With Govern &amp; Grow</span></li>
-        <li><h3>Run the ISMS and build evidence</h3><p>Operate the controls for long enough to produce the records auditors will ask to see.</p><span class="who">With Govern &amp; Grow</span></li>
-        <li><h3>Internal audit and management review</h3><p>Test the system independently and have leadership review results before the external audit.</p><span class="who">With Govern &amp; Grow</span></li>
-        <li><h3>Stage 1 audit</h3><p>The certification body reviews your documentation and readiness.</p><span class="who cb">Certification body</span></li>
-        <li><h3>Stage 2 audit and certification</h3><p>Auditors check that controls work in practice. On success, you are certified for three years.</p><span class="who cb">Certification body</span></li>
-        <li><h3>Surveillance audits</h3><p>Annual audits keep the certificate valid. We help you stay ready year after year.</p><span class="who cb">Certification body</span></li>
-      </ol>
+      <div class="how" role="table" aria-label="Our approach by practice">
+        <div class="how-row" role="row"><span role="columnheader">Stage</span><span role="columnheader">Compliance</span><span role="columnheader">Digital transformation</span><span role="columnheader">Operations</span></div>
+        <div class="how-row" role="row">
+          <h3 role="rowheader"><i>1</i>Diagnose</h3>
+          <p role="cell"><span class="lbl g">Compliance</span>Gap assessment against ISO 27001 or the DPDP Act</p>
+          <p role="cell"><span class="lbl d">Digital</span>Digital maturity and systems review</p>
+          <p role="cell"><span class="lbl o">Operations</span>Process mapping and time-and-cost analysis</p>
+        </div>
+        <div class="how-row" role="row">
+          <h3 role="rowheader"><i>2</i>Design</h3>
+          <p role="cell"><span class="lbl g">Compliance</span>Risk assessment, policies and control plan</p>
+          <p role="cell"><span class="lbl d">Digital</span>Roadmap, requirements and system selection</p>
+          <p role="cell"><span class="lbl o">Operations</span>Future-state processes, SOPs and KPIs</p>
+        </div>
+        <div class="how-row" role="row">
+          <h3 role="rowheader"><i>3</i>Deliver</h3>
+          <p role="cell"><span class="lbl g">Compliance</span>Implement controls, internal audit, certification audit</p>
+          <p role="cell"><span class="lbl d">Digital</span>ERP rollout, automation and data migration</p>
+          <p role="cell"><span class="lbl o">Operations</span>Roll out new processes and train teams</p>
+        </div>
+        <div class="how-row" role="row">
+          <h3 role="rowheader"><i>4</i>Sustain</h3>
+          <p role="cell"><span class="lbl g">Compliance</span>Surveillance audits and ongoing risk reviews</p>
+          <p role="cell"><span class="lbl d">Digital</span>Adoption tracking and system optimisation</p>
+          <p role="cell"><span class="lbl o">Operations</span>KPI reviews and continuous improvement</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="dpdpa" class="alt" aria-labelledby="dpdpa-title">
-    <div class="wrap">
-      <div class="head">
-        <h2 id="dpdpa-title">What the DPDP Act asks of your business</h2>
-        <p>India’s Digital Personal Data Protection Act, 2023 applies to organisations that process digital personal data. As a Data Fiduciary, these are the core obligations we help you meet.</p>
+  <section class="alt" aria-labelledby="together-title">
+    <div class="wrap together">
+      <div class="head" style="margin:0">
+        <h2 id="together-title">Why one partner for all three</h2>
+        <p>Compliance, systems and processes are usually handled by different firms that never talk to each other. That’s how you end up redoing work.</p>
       </div>
-      <ul class="oblig">
-        <li><b>Clear notice</b><span>Tell people what data you collect, why, and how to exercise their rights.</span></li>
-        <li><b>Valid consent</b><span>Free, specific and informed consent that is as easy to withdraw as to give.</span></li>
-        <li><b>Purpose and retention limits</b><span>Use data only for the stated purpose and erase it when no longer needed.</span></li>
-        <li><b>Security safeguards</b><span>Reasonable security measures to prevent personal data breaches.</span></li>
-        <li><b>Breach notification</b><span>Inform the Data Protection Board and each affected person when a breach occurs.</span></li>
-        <li><b>Data Principal rights</b><span>Access, correction, erasure, grievance redressal and nomination.</span></li>
-        <li><b>Children’s data</b><span>Verifiable parental consent, and no tracking or targeted advertising directed at children.</span></li>
-        <li><b>Processor accountability</b><span>You remain responsible for data your vendors process on your behalf.</span></li>
-        <li><b>Significant Data Fiduciaries</b><span>Additional duties, including a Data Protection Officer, independent audits and impact assessments.</span></li>
+      <ul>
+        <li><b>Controls built into new systems</b><span>When we design your ERP or workflows, access, approvals and audit trails are included from day one, not bolted on before an audit.</span></li>
+        <li><b>Processes that pass audits</b><span>Documented SOPs and clear ownership are exactly the evidence ISO auditors and the DPDP Act expect.</span></li>
+        <li><b>Efficiency without new risk</b><span>We streamline operations without weakening the safeguards your clients and regulators rely on.</span></li>
       </ul>
-      <div class="callout">
-        <p><strong>Penalties under the Act reach up to ₹250 crore</strong> for failing to take reasonable security safeguards. Already ISO 27001 certified? Much of your security work carries over.</p>
-        <a href="#contact" class="btn btn-primary" data-service="DPDPA">Check your DPDPA readiness</a>
-      </div>
     </div>
   </section>
 
@@ -501,19 +593,19 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
       </div>
       <div class="models">
         <article class="model">
-          <h3>Gap assessment</h3>
-          <p class="fit">Best if you’re not sure where you stand</p>
-          <p>A short, fixed-fee review against ISO 27001, ISO 42001 or the DPDP Act, with a prioritised roadmap and effort estimate.</p>
+          <h3>Assessment</h3>
+          <p class="fit">Best if you’re not sure where to start</p>
+          <p>A short, fixed-fee review: a compliance gap assessment, digital maturity review or operations diagnostic, with a prioritised plan.</p>
         </article>
         <article class="model">
-          <h3>Implementation project</h3>
-          <p class="fit">Best if you have a deadline</p>
-          <p>We lead the work from scoping to certification audit, or to a working DPDPA programme, alongside your team.</p>
+          <h3>Project</h3>
+          <p class="fit">Best if you have a clear goal or deadline</p>
+          <p>We lead delivery alongside your team, whether that’s a certification, an ERP rollout or a process redesign.</p>
         </article>
         <article class="model">
-          <h3>Ongoing compliance support</h3>
-          <p class="fit">Best once you’re certified</p>
-          <p>A monthly retainer covering risk reviews, internal audits, surveillance audit preparation and day-to-day compliance questions.</p>
+          <h3>Ongoing support</h3>
+          <p class="fit">Best for keeping momentum</p>
+          <p>A monthly retainer for audits, risk reviews, system improvements, KPI reviews and day-to-day advice.</p>
         </article>
       </div>
     </div>
@@ -522,12 +614,12 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
   <section id="faq" class="alt" aria-labelledby="faq-title">
     <div class="wrap faq">
       <div class="head"><h2 id="faq-title">Frequently asked questions</h2></div>
-      <details><summary>How long does ISO 27001 certification take?</summary><p>For most small and mid-sized organisations, it takes several months to a year from gap assessment to certificate. It depends on your scope, how mature your current controls are, and how much time your team can give the project. After a gap assessment we give you a realistic timeline.</p></details>
-      <details><summary>What is the difference between ISO 27001 and ISO 27002?</summary><p>ISO/IEC 27001 sets out the requirements for an information security management system and is the standard you are certified against. ISO/IEC 27002 is guidance on how to implement the security controls listed in ISO 27001 Annex A. You cannot be certified to ISO 27002.</p></details>
-      <details><summary>Does the DPDP Act apply to my business?</summary><p>If you process digital personal data in India, or process it outside India in connection with offering goods or services to people in India, the Act very likely applies to you, whatever your size. A short assessment confirms your role and obligations.</p></details>
-      <details><summary>Do you issue the ISO certificate?</summary><p>No. Certificates are issued by independent, accredited certification bodies. Consultants should never certify the systems they helped build. We prepare you for the audit, help you choose a certification body and support you through the Stage 1 and Stage 2 audits.</p></details>
-      <details><summary>Can ISO 27001 and ISO 42001 be implemented together?</summary><p>Yes. Both follow the same harmonised management system structure, so policies, risk management, internal audit and management review can be shared. Doing them together saves time and avoids duplicate documentation.</p></details>
-      <details><summary>What does the free gap assessment include?</summary><p>A 30-minute call to understand your goals and deadlines, followed by a short written summary of where you stand and the steps we recommend. There is no obligation to continue.</p></details>
+      <details><summary>How long does ISO 27001 certification take?</summary><p>For most small and mid-sized organisations, several months to a year from gap assessment to certificate, depending on scope, how mature your current controls are and how much time your team can give the project.</p></details>
+      <details><summary>Does the DPDP Act apply to my business?</summary><p>If you process digital personal data of customers, employees or users in India, it very likely does, whatever your size. A short assessment confirms your obligations and what to prioritise.</p></details>
+      <details><summary>How do I know if my business needs an ERP?</summary><p>Common signs are running finance, inventory or sales across disconnected spreadsheets and tools, re-entering the same data in several places, slow month-end closing, and leaders waiting days for reliable reports.</p></details>
+      <details><summary>How long does an ERP implementation take?</summary><p>It depends on the system, the number of modules and how much data needs to move. Smaller rollouts can take a few months; larger ones longer. Good requirements and process mapping up front is what keeps projects on schedule.</p></details>
+      <details><summary>What does an operational efficiency review involve?</summary><p>We map how work actually flows through your teams, measure where time and cost are lost, and give you a prioritised list of improvements, from quick wins to larger process or system changes.</p></details>
+      <details><summary>Can you help with compliance and transformation at the same time?</summary><p>Yes, and it is usually cheaper that way. Building controls into new systems and processes from the start avoids reworking them later for an audit.</p></details>
     </div>
   </section>
 
@@ -535,8 +627,8 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
     <div class="wrap contact-grid">
       <div>
         <div class="head">
-          <h2 id="contact-title">Book your free gap assessment</h2>
-          <p>Tell us what you’re working towards and any deadlines you have.</p>
+          <h2 id="contact-title">Book a free consultation</h2>
+          <p>Tell us what you’re working towards, whether it’s a certification, a new system or leaner operations.</p>
         </div>
         <h3 style="font-family:var(--sans);font-size:1rem;font-weight:600">What happens next</h3>
         <ol class="next">
@@ -548,7 +640,7 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
       </div>
 
       <form action="https://formsubmit.co/paruthiparas02@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="New gap assessment request from governgrow.com">
+        <input type="hidden" name="_subject" value="New consultation request from governgrow.com">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" value="https://governgrow.com/thanks.html">
         <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -561,15 +653,17 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
           <div><label for="phone">Phone <span class="opt">(optional)</span></label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
         </div>
         <fieldset>
-          <legend>Which services are you interested in? <span class="opt">(choose any)</span></legend>
+          <legend>What can we help with? <span class="opt">(choose any)</span></legend>
           <div class="checks">
             <label><input type="checkbox" name="services" value="ISO 27001">ISO 27001</label>
-            <label><input type="checkbox" name="services" value="ISO 42001">ISO 42001</label>
             <label><input type="checkbox" name="services" value="DPDPA">DPDPA</label>
-            <label><input type="checkbox" name="services" value="Risk and internal audit">Risk and internal audit</label>
-            <label><input type="checkbox" name="services" value="Digital transformation">Digital transformation</label>
+            <label><input type="checkbox" name="services" value="ISO 42001">AI governance</label>
+            <label><input type="checkbox" name="services" value="Digital strategy">Digital strategy</label>
             <label><input type="checkbox" name="services" value="ERP">ERP</label>
-            <label><input type="checkbox" name="services" value="Operational efficiency">Operational efficiency</label>
+            <label><input type="checkbox" name="services" value="Automation">Automation</label>
+            <label><input type="checkbox" name="services" value="Process improvement">Process improvement</label>
+            <label><input type="checkbox" name="services" value="SOPs">SOPs</label>
+            <label><input type="checkbox" name="services" value="KPIs and cost">KPIs and cost</label>
           </div>
         </fieldset>
         <div class="row">
@@ -584,22 +678,22 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
             </select>
           </div>
           <div>
-            <label for="deadline">Do you have a deadline?</label>
-            <select id="deadline" name="deadline">
+            <label for="deadline">When do you want to start?</label>
+            <select id="deadline" name="timeline">
               <option value="">Select</option>
+              <option>As soon as possible</option>
               <option>Within 3 months</option>
               <option>3–6 months</option>
-              <option>6–12 months</option>
-              <option>No fixed deadline</option>
+              <option>Just exploring</option>
             </select>
           </div>
         </div>
         <div>
           <label for="message">What are you working towards?</label>
-          <textarea id="message" name="message" required placeholder="For example: a client needs us ISO 27001 certified before renewing their contract"></textarea>
+          <textarea id="message" name="message" required placeholder="For example: we need ISO 27001 for a client contract and want to replace our spreadsheets with an ERP"></textarea>
         </div>
         <div class="form-foot">
-          <button type="submit" class="btn btn-primary">Request free assessment</button>
+          <button type="submit" class="btn btn-primary">Request free consultation</button>
           <p class="note">We use your details only to reply to your request.</p>
         </div>
       </form>
@@ -609,26 +703,33 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
 
 <footer>
   <div class="wrap">
-    <div class="foot">
+    <div class="foot" style="grid-template-columns:1.5fr 1fr 1fr 1fr">
       <div>
-        <a href="#" class="brand"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iOCIgeTE9IjQiIHgyPSI0MCIgeTI9IjQ2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMEFCM0M0Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTRBNDREIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZD0iTTI0IDMgNDEgOS41VjIyYzAgMTEtNy41IDE5LTE3IDIzQzE0LjUgNDEgNyAzMyA3IDIyVjkuNVoiIGZpbGw9InVybCgjZykiLz48cGF0aCBkPSJNMjQgMzdWMjEiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yNCAyNS41YzAtNyA0LjYtMTEuNSAxMS0xMS41IDAgNy00LjYgMTEuNS0xMSAxMS41WiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0yNCAzMGMwLTUuNC0zLjYtOS04LjYtOSAwIDUuNCAzLjYgOSA4LjYgOVoiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjgyIi8+PGNpcmNsZSBjeD0iMjQiIGN5PSIzOC4yIiByPSIxLjYiIGZpbGw9IiNGRkIwMjAiLz48L3N2Zz4K" alt="" width="40" height="40"><span><b>Govern &amp; Grow</b><small>GRC &amp; consulting</small></span></a>
-        <p>We help you govern and grow. ISO certification, data protection compliance and business transformation. More services and resources coming soon.</p>
+        <a href="#" class="brand"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iOCIgeTE9IjQiIHgyPSI0MCIgeTI9IjQ2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMEFCM0M0Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTRBNDREIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZD0iTTI0IDMgNDEgOS41VjIyYzAgMTEtNy41IDE5LTE3IDIzQzE0LjUgNDEgNyAzMyA3IDIyVjkuNVoiIGZpbGw9InVybCgjZykiLz48cGF0aCBkPSJNMjQgMzdWMjEiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yNCAyNS41YzAtNyA0LjYtMTEuNSAxMS0xMS41IDAgNy00LjYgMTEuNS0xMSAxMS41WiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0yNCAzMGMwLTUuNC0zLjYtOS04LjYtOSAwIDUuNCAzLjYgOSA4LjYgOVoiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjgyIi8+PGNpcmNsZSBjeD0iMjQiIGN5PSIzOC4yIiByPSIxLjYiIGZpbGw9IiNGRkIwMjAiLz48L3N2Zz4K" alt="" width="40" height="40"><span><b>Govern &amp; Grow</b><small>Consulting</small></span></a>
+        <p>We help you govern and grow. More services and resources coming soon.</p>
       </div>
       <div>
         <h3>Compliance</h3>
         <ul>
-          <li><a href="#iso-27001">ISO 27001 consulting</a></li>
-          <li><a href="#iso-42001">ISO 42001 consulting</a></li>
-          <li><a href="#dpdpa">DPDPA compliance</a></li>
-          <li><a href="#iso-27001-certification">Certification process</a></li>
+          <li><a href="#grc">ISO 27001</a></li>
+          <li><a href="#grc">DPDPA</a></li>
+          <li><a href="#grc">AI governance</a></li>
         </ul>
       </div>
       <div>
-        <h3>Transformation</h3>
+        <h3>Digital</h3>
         <ul>
-          <li><a href="#transformation">Digital transformation</a></li>
-          <li><a href="#transformation">ERP advisory</a></li>
-          <li><a href="#transformation">Operational efficiency</a></li>
+          <li><a href="#digital">Digital strategy</a></li>
+          <li><a href="#digital">ERP</a></li>
+          <li><a href="#digital">Automation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Operations</h3>
+        <ul>
+          <li><a href="#operations">Process improvement</a></li>
+          <li><a href="#operations">SOPs</a></li>
+          <li><a href="#operations">KPIs and cost</a></li>
         </ul>
       </div>
     </div>

@@ -203,11 +203,53 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
 .menu a{display:block;padding:.8rem 0;font-size:1.05rem}
 .menu .btn{margin-top:.5rem;padding:.85rem}
 }
-@media (max-width:640px){
+@media (max-width:640px){.foot{grid-template-columns:1fr!important}
 .grid,.models,.oblig,.triggers,.support,.std,.row,.foot{grid-template-columns:1fr}
 .brand small{display:none}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.bar i{animation:none}.btn{transition:none}}
+
+/* v4 balanced layout */
+.pillars{background:var(--navy);color:#F4FAF7;padding-block:1.6rem}
+@media (prefers-color-scheme:dark){.pillars{background:#061420}}
+.pillars ul{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;list-style:none}
+.pillars a{display:flex;gap:.9rem;align-items:flex-start;text-decoration:none;padding:.9rem 1rem;border-radius:var(--r);background:rgba(255,255,255,.07);border-left:4px solid var(--teal)}
+.pillars li:nth-child(2) a{border-color:#3DD27A}.pillars li:nth-child(3) a{border-color:var(--amber)}
+.pillars a:hover{background:rgba(255,255,255,.13)}
+.pillars b{display:block;font-size:1.02rem}
+.pillars span{display:block;font-size:.86rem;opacity:.75}
+.triggers.six{grid-template-columns:repeat(3,1fr)}
+.triggers .pill{display:inline-block;font-size:.76rem;font-weight:700;margin-bottom:.6rem;color:var(--teal-d)}
+.triggers li.g .pill{color:var(--teal-d)}.triggers li.d .pill{color:var(--emerald-d)}.triggers li.o .pill{color:var(--amber-d)}
+.triggers li.g{background:var(--sky)}.triggers li.d{background:var(--mint)}.triggers li.o{background:var(--sun)}
+.practice-head .also{margin-top:.5rem;font-size:.92rem}
+.how{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+.how-row{display:grid;grid-template-columns:1.1fr 1fr 1fr 1fr;border-top:1px solid var(--line)}
+.how-row:first-child{border-top:none;background:var(--paper)}
+.how-row>*{padding:1.1rem 1.25rem}
+.how-row>*+*{border-left:1px solid var(--line)}
+.how-row:first-child span{font-weight:600;font-size:.92rem}
+.how-row:first-child span:nth-child(2){color:var(--teal-d)}.how-row:first-child span:nth-child(3){color:var(--emerald-d)}.how-row:first-child span:nth-child(4){color:var(--amber-d)}
+.how-row h3{font-size:1.2rem;display:flex;gap:.6rem;align-items:baseline}
+.how-row h3 i{font-style:normal;font-family:var(--sans);font-size:.85rem;font-weight:700;color:#fff;background:var(--grad);border-radius:50%;width:1.6rem;height:1.6rem;display:inline-grid;place-items:center;flex:none}
+.how-row p{font-size:.94rem;color:var(--slate)}
+.how-row .lbl{display:none;font-size:.78rem;font-weight:700;margin-bottom:.15rem}
+.together{display:grid;grid-template-columns:1fr 1.3fr;gap:3rem;align-items:center}
+.together ul{list-style:none;display:grid;gap:1.1rem}
+.together li{padding:1.1rem 1.3rem;border-radius:var(--r);background:var(--surface);border:1px solid var(--line)}
+.together b{display:block;font-family:var(--serif);font-size:1.12rem}
+.together span{color:var(--slate);font-size:.95rem}
+@media (max-width:1000px){.pillars ul,.triggers.six{grid-template-columns:1fr 1fr}.together{grid-template-columns:1fr}}
+@media (max-width:760px){
+.how-row{grid-template-columns:1fr}.how-row:first-child{display:none}
+.how-row>*+*{border-left:none;padding-top:0}
+.how-row .lbl{display:block}
+.how-row .lbl.g{color:var(--teal-d)}.how-row .lbl.d{color:var(--emerald-d)}.how-row .lbl.o{color:var(--amber-d)}
+}
+@media (max-width:640px){.foot{grid-template-columns:1fr!important}.pillars ul,.triggers.six{grid-template-columns:1fr}}
+@media (max-width:1000px){.foot{grid-template-columns:1fr 1fr!important}}
+@media (max-width:640px){.foot{grid-template-columns:1fr!important}}
+.wrap.faq{max-width:none}.faq details{max-width:840px}
 
 </style>
 </head>
@@ -215,7 +257,7 @@ footer{padding-block:2.75rem 2rem;color:var(--slate);font-size:.92rem}
 <main class="simple"><div>
 <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iOCIgeTE9IjQiIHgyPSI0MCIgeTI9IjQ2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMEFCM0M0Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTRBNDREIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZD0iTTI0IDMgNDEgOS41VjIyYzAgMTEtNy41IDE5LTE3IDIzQzE0LjUgNDEgNyAzMyA3IDIyVjkuNVoiIGZpbGw9InVybCgjZykiLz48cGF0aCBkPSJNMjQgMzdWMjEiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yNCAyNS41YzAtNyA0LjYtMTEuNSAxMS0xMS41IDAgNy00LjYgMTEuNS0xMSAxMS41WiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0yNCAzMGMwLTUuNC0zLjYtOS04LjYtOSAwIDUuNCAzLjYgOSA4LjYgOVoiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjgyIi8+PGNpcmNsZSBjeD0iMjQiIGN5PSIzOC4yIiByPSIxLjYiIGZpbGw9IiNGRkIwMjAiLz48L3N2Zz4K" alt="Govern &amp; Grow">
 <h1>Thanks, we’ve received your request.</h1>
-<p>We’ll reply within two working days to arrange your free gap assessment. If it’s urgent, email <a href="mailto:paruthiparas02@gmail.com">paruthiparas02@gmail.com</a>.</p>
+<p>We’ll reply within two working days to arrange your free consultation. If it’s urgent, email <a href="mailto:paruthiparas02@gmail.com">paruthiparas02@gmail.com</a>.</p>
 <a href="https://governgrow.com/" class="btn btn-primary">Back to home page</a>
 </div></main>
 </body>

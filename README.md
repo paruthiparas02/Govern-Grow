@@ -1,6 +1,6 @@
 # Govern & Grow — governgrow.com
 
-Website for Govern & Grow: ISO 27001, ISO 42001 and DPDPA compliance consulting, plus digital transformation, ERP and operational efficiency.
+Website for Govern & Grow: Consulting for governance, risk and compliance, digital transformation and operational efficiency.
 
 Every page is self-contained (styles, scripts and logo are built in), so files can sit at the top level of the repository without any folders.
 
