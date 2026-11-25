@@ -11,7 +11,8 @@ Every page is self-contained (styles, scripts and logo are built in), so files c
 | index.html | Home page |
 | thanks.html | Shown after the contact form is sent |
 | 404.html | Page not found |
-| logo-mark.svg | Logo, used by search engines (structured data) |
+| logo.svg | Full logo (mark and wordmark) |
+| logo-mark.svg | Logo mark only, used by search engines and as the favicon |
 | sitemap.xml | List of pages for Google and Bing |
 | robots.txt | Tells search engines they can crawl the site and where the sitemap is |
 | CNAME | Custom domain for GitHub Pages |

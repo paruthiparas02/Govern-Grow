@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 110" width="460" height="110">
+  <g transform="translate(20, 19)">
+    <polygon points="35,2 65,19 65,53 35,70 5,53 5,19" fill="#0B132B" stroke="#1C2541" stroke-width="2" />
+    <path d="M 22 44 L 35 24 L 48 44" fill="none" stroke="#10B981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="35" y1="26" x2="35" y2="52" stroke="#10B981" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+  <text x="102" y="54" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="33" font-weight="800" letter-spacing="-0.8" fill="#0B132B">
+    GOVERN <tspan font-weight="600" fill="#1C2541">&amp;</tspan> <tspan font-weight="400" fill="#10B981">GROW</tspan>
+  </text>
+
+  <text x="104" y="76" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="600" letter-spacing="4.2" fill="#475569">
+    CONSULTING
+  </text>
+</svg>
